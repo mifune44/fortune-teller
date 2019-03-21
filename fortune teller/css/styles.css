@@ -1,0 +1,14 @@
+#goodFortune{
+  display: none;
+}
+#badFortune{
+  display: none;
+}
+#balance{
+  display: none;
+}
+
+
+h2 {
+  text-align: center;
+}

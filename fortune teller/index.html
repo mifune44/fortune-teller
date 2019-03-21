@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fortune teller</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Zoltar decides your fate!</h2>
+      </div>
+      <form id="fate_quiz">
+        <div class="form-group">
+          <p>Allow the mystic mind of Zoltar guide you to posperity and wisdom. Check all the applicable so he can spin Fortuna's Wheel!</p>
+          <a><img src=https://i.ytimg.com/vi/fWZ4c66V1P4/maxresdefault.jpg></a>
+          <input type="checkbox" name="unlucky" value="ladder"> Do you walk under ladders?<br>
+          <input type="checkbox" name="lucky" value="rabbit">Do you carry a rabbit's foot?<br>
+          <input type="checkbox" name="unlucky" value="blackCat">Did a black cat cross your path?<br>
+          <input type="checkbox" name="unlucky" value="mirror">Have you ever broke a mirror?<br>
+          <input type="checkbox" name="lucky" value="clover">Have you ever found a four leaf clover?<br>
+          <input type="checkbox" name="unlucky" value="umbrella">Have you opened an umbrella indoors?<br>
+          <input type="checkbox" name="lucky" value="knock">Do you knock on wood?<br>
+          <input type="checkbox" name="lucky" value="wishbone">Have you broken a wishbone?<br>
+          <input type="checkbox" name="unlucky" value="salt">Have you ever spilled salt?<br>
+          <input type="checkbox" name="lucky" value="penny">Have you ever picked up a penny off the ground?<br>
+          <input type="checkbox" name="unlucky" value="redhead">Have you ever dated a ginger?<br>
+          <input type="checkbox" name="lucky" value="fingers">Do you cross your fingers?<br>
+        </div>
+       <button type="submit">Zoltar, I command thee, TELL ME MY FUTURE!</button>
+      </form>
+      <span id="goodFortune">
+        <p><b>Good luck, wealth, and health will follow you all of your days!</b></p>
+      </span>
+      <span id="badFortune">
+        <p><b>Dark clouds curdle on your horizon. It will get worse before it improves. Perhaps it was better you were never born!</b></p>
+      </span>
+      <span id="balance">
+        <p><b>You're life will neither plummet nor summit.  Your days will be spent nzviagating the middle, never reaching disaster, but also never experiencing the heights of success.</b></p>
+      </span>
+    </div>
+  </body>
+</html>
